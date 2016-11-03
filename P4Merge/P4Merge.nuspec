@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!-- Do not remove this test for UTF-8: if “Ω” doesn’t appear as greek uppercase omega letter enclosed in quotation marks, you should use an editor that supports UTF-8, not this one. -->
+<package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
+  <metadata>
+	<id>P4Merge</id>
+	<version>2015.2.1</version>
+	<packageSourceUrl>https://github.com/hansnull/chocolatey-p4merge-package</packageSourceUrl>
+	<owners>hans0</owners>
+	<title>P4Merge, the Perforce Visual Merge Tool</title>
+	<authors>Perforce Software, Inc.</authors>
+	<projectUrl>http://www.perforce.com/product/components/perforce_visual_merge_and_diff_tools</projectUrl>
+	<iconUrl>https://github.com/alanstevens/ChocoPackages/raw/master/P4Merge/p4merge.png</iconUrl>
+	<copyright>Perforce Software, Inc.</copyright>
+	<licenseUrl>http://www.perforce.com/downloads/terms-use</licenseUrl>
+	<requireLicenseAcceptance>true</requireLicenseAcceptance>
+	<docsUrl>http://filehost.perforce.com/perforce/r15.2/doc/manuals/p4merge.pdf</docsUrl>
+	<tags>p4merge diff merge admin</tags>
+	<summary>P4Merge is an excellent, free diff and merge tool.</summary>
+	<description>P4Merge is a visual diff tool that displays the differences between file versions and helps you to resolve conflicts and merge competing versions into one.</description>
+	<releaseNotes>https://www.perforce.com/perforce/doc.current/user/p4vmergenotes.txt</releaseNotes>
+  </metadata>
+  <files>
+    <file src="tools\**" target="tools" />
+   </files>
+</package>

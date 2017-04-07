@@ -3,7 +3,7 @@ $ErrorActionPreference = 'Stop';
 
 $packageName= 'P4Merge'
 $toolsDir   = "$(Split-Path -parent $MyInvocation.MyCommand.Definition)"
-$url        = 'http://filehost.perforce.com/perforce/r15.2/bin.ntx86/p4vinst.exe'
+$url        = 'http://filehost.perforce.com/perforce/r17.1/bin.ntx86/p4vinst.exe'
 
 $packageArgs = @{
   packageName   = $packageName
@@ -13,7 +13,7 @@ $packageArgs = @{
 
   softwareName  = 'Helix Visual*'
 
-  checksum      = '53610b5cf921701b439d2c6c4d73480c'
+  checksum      = '41fc6ca913311e1f8875709bb2508654'
   checksumType  = 'md5'
 
   validExitCodes= @(0, 3010, 1641)

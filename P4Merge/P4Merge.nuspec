@@ -18,6 +18,10 @@
 	<summary>P4Merge is an excellent, free diff and merge tool.</summary>
 	<description>P4Merge is a visual diff tool that displays the differences between file versions and helps you to resolve conflicts and merge competing versions into one.</description>
 	<releaseNotes>https://www.perforce.com/perforce/doc.current/user/p4vmergenotes.txt</releaseNotes>
+	<dependencies>
+	  <dependency id="vcredist2012" />
+      <dependency id="vcredist2013" />
+    </dependencies>
   </metadata>
   <files>
     <file src="tools\**" target="tools" />

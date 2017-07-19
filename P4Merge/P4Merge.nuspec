@@ -3,7 +3,7 @@
 <package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
   <metadata>
 	<id>P4Merge</id>
-	<version>2017.2.1518788</version>
+	<version>2017.2.1532340</version>
 	<packageSourceUrl>https://github.com/hansnull/chocolatey-p4merge-package</packageSourceUrl>
 	<owners>hans0</owners>
 	<title>P4Merge, the Perforce Visual Merge Tool</title>

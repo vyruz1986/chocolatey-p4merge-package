@@ -15,8 +15,8 @@ $packageArgs = @{
 
   softwareName  = 'Helix Visual*'
 
-  checksum      = '35824f08304c3821b4ff1f727974054a04597a50142c0182db2df623ded21366'
-  checksum64    = 'fd47f14110a6d4a093a63def4089fb101f9bdc8fafc34c2356d44cda6edc9211'
+  checksum      = '9338c28b411c975106d6ec91cb514efe16f56d93d08ab113677309d62af31236'
+  checksum64    = 'f055dfac50c3484529dce8c73e0338e0850b749f71bfb90d5c5ded6bcb64589d'
   checksumType  = 'SHA256'
   checksumType64= 'SHA256'
 

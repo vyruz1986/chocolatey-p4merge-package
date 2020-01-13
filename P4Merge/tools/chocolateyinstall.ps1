@@ -15,8 +15,8 @@ $packageArgs = @{
 
   softwareName  = 'Helix Core*'
 
-  checksum      = '58ed8433499fa4efc5613a27ce0d5d4649f973dbeeaaebcdd4b36937464c5cbc'
-  checksum64    = '0e064f1ef1f308c9af7b0f96db192119e331b7ab5c5c4a091ff9f7d091129fd1'
+  checksum      = '5a8169d4bd6788e3d334fd18b5944098617d9bbf1bcc563b8b1bd7c69e603dcc'
+  checksum64    = 'ed85968d9088dc21f59cb45e7b37f47f178f93e35b559484c8c9820c272b87e2'
   checksumType  = 'SHA256'
   checksumType64= 'SHA256'
 

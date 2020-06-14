@@ -3,8 +3,8 @@ $ErrorActionPreference = 'Stop';
 
 $packageName= 'P4Merge'
 $toolsDir   = "$(Split-Path -parent $MyInvocation.MyCommand.Definition)"
-$url        = 'https://filehost.perforce.com/perforce/r19.2/bin.ntx86/p4vinst.exe'
-$url64bit   = 'https://filehost.perforce.com/perforce/r19.2/bin.ntx64/p4vinst64.exe'
+$url        = 'https://filehost.perforce.com/perforce/r20.1/bin.ntx86/p4vinst.exe'
+$url64bit   = 'https://filehost.perforce.com/perforce/r20.1/bin.ntx64/p4vinst64.exe'
 
 $packageArgs = @{
   packageName   = $packageName
@@ -15,8 +15,8 @@ $packageArgs = @{
 
   softwareName  = 'Helix Core*'
 
-  checksum      = '5a8169d4bd6788e3d334fd18b5944098617d9bbf1bcc563b8b1bd7c69e603dcc'
-  checksum64    = 'ed85968d9088dc21f59cb45e7b37f47f178f93e35b559484c8c9820c272b87e2'
+  checksum      = '5b7ce5100cbdd7cfb5732d28d39beec9ca9f9e4a72fa52b3c5f26cc683cfac4e'
+  checksum64    = 'b537cd98ec0fd885193fad40756597bd2cda86455b96414756c259d056dc6a6a'
   checksumType  = 'SHA256'
   checksumType64= 'SHA256'
 

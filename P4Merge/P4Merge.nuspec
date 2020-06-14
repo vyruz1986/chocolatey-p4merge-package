@@ -3,7 +3,7 @@
 <package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
   <metadata>
 	<id>P4Merge</id>
-	<version>2019.2.1904275</version>
+	<version>2020.1.1966006</version>
 	<packageSourceUrl>https://github.com/hansnull/chocolatey-p4merge-package</packageSourceUrl>
 	<owners>hans0</owners>
 	<title>P4Merge, the Perforce Visual Merge Tool</title>
@@ -13,7 +13,7 @@
 	<copyright>Perforce Software, Inc.</copyright>
 	<licenseUrl>https://www.perforce.com/terms-use</licenseUrl>
 	<requireLicenseAcceptance>true</requireLicenseAcceptance>
-	<docsUrl>https://filehost.perforce.com/perforce/r19.2/doc/manuals/p4merge.pdf</docsUrl>
+	<docsUrl>https://filehost.perforce.com/perforce/r20.1/doc/manuals/p4merge.pdf</docsUrl>
 	<tags>p4merge diff merge admin</tags>
 	<summary>P4Merge is an excellent, free diff and merge tool.</summary>
 	<description>P4Merge is a visual diff tool that displays the differences between file versions and helps you to resolve conflicts and merge competing versions into one.</description>
